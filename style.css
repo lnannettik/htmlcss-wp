@@ -1,0 +1,124 @@
+/* GENERAL RESET */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BODY */
+body {
+    font-size: 300;
+    color: #8e8e8e;
+}
+
+.container {
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* CONTENT DEBUG */
+.content {
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    background: 0, 0, 0, .25;
+}
+
+/* UTILITY */
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pdx-16 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* ------------------------------HEADER-------------------------- */
+header {
+    width: 100%;
+    background-color: purple;
+}
+
+.brand {
+    display: inline-block;
+}
+
+.brand img {
+    width: 160px;
+} 
+
+.main-menu > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-menu > li:last-child {
+    margin-right: 0%;
+}
+
+.main-menu > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}
+
+.main-menu > li > a:hover {
+    color: black;
+}
+
+
+/* MAIN */
+main {
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+/* STRUTTURA */
+.struttura {
+    background-color: royalblue;
+
+}
+
+
+.testa {
+    background-color: lightblue;
+}
+
+
+.sidebar, .col1, .col2 {
+    float: left;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: lightblue;
+    margin-right: 1%;
+}
+
+.col1 {
+    width: 48%;
+    background-color: lightblue;
+}
+
+.col2 {
+    width: 25%;
+    background-color: lightblue;
+    margin-left: 1%;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    background-color: purple;
+} 
