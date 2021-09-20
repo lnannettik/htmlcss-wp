@@ -129,7 +129,9 @@ main {
 
 
 /* --------------------------LEADERSHIP---------------------------- */
-
+.middle-title h1 {
+    color: black;
+}
 
 /* -------------------------STRUTTURA--------------------------- */
 .struttura {
@@ -162,6 +164,25 @@ main {
     width: 25%;
     background-color: lightblue;
     margin-left: 1%;
+}
+
+.sidebar-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col1-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.col2-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h-200 {
+    height: 200px;
 }
 
 /* FOOTER */
