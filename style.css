@@ -19,11 +19,11 @@ body {
 }
 
 /* CONTENT DEBUG */
-.content {
+/* .content {
     height: 30px;
     border: 1px solid rgba(0, 0, 0, .1);
     background: 0, 0, 0, .25;
-}
+} */
 
 /* UTILITY */
 .clearfix::after {
@@ -46,7 +46,6 @@ body {
 /* ------------------------------HEADER-------------------------- */
 header {
     width: 100%;
-    background-color: purple;
 }
 
 .brand {
@@ -81,7 +80,7 @@ header {
 /* MAIN */
 main {
     position: relative;
-    background-image: url(./img//banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-position: center;
     background-attachment: scroll;
     width: 100%;
@@ -134,16 +133,16 @@ main {
 }
 
 /* -------------------------STRUTTURA--------------------------- */
-.struttura {
+/* .struttura {
     background-color: royalblue;
 
-}
+} */
 
 
-.testa {
+/* .testa {
     background-color: lightblue;
 }
-
+ */
 
 .sidebar, .col1, .col2 {
     float: left;
@@ -151,22 +150,23 @@ main {
 
 .sidebar {
     width: 25%;
-    background-color: lightblue;
     margin-right: 1%;
 }
 
 .col1 {
     width: 48%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 
 .col2 {
     width: 25%;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     margin-left: 1%;
 }
 
 .sidebar-img {
+    background-image: url("./img/img-1.jpg");
+    height: 100%;
     width: 100%;
     border-radius: 10px;
 }
